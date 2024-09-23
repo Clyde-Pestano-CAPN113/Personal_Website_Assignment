@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="CssStyling.css">
+<head>
+    <title>Resources</title>
+    <nav>
+        <a href="Main.html">HOBBY</a>
+        <button onclick="OpenMainSideBar()" class="StickTopRight">MENU+</button>
+    </nav>
+</head>
+<body>
+    <link rel="stylesheet" href="CssStyling">
+    <!--The sidebar-->
+    <div id ="MainSideBar" class="sidebar">
+        <div class="closeit" onclick="CloseMainSideBar()">X</div>
+        <div><a href="Main.html">Home</a></div>
+        <div><a href="Table_of_Resources.html">Resource Links</a></div>
+    </div>
+    <table>
+        <caption>Game Making Resources</caption>
+        <tr>
+            <th>What you should start with</th>
+            <th>Learning Coding Language</th>
+            <th>Visuals</th>
+            <th>Audio Desgin</th>
+        </tr>
+        <tr>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/j48LtUkZRjU?si=0-tqrNwQsgYKzQ4z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/9tMvzrqBUP8?si=siAQNiFq3uUvnagr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/nvbQ9_bzx1k?si=2Nh-iCUH0k-f-YYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/2EkZjppztyo?si=nALDglPGP0eO2w63" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+    </table>
+</body>
+<script>
+    //Function to open and close sidebar
+    function OpenMainSideBar(){
+        document.getElementById("MainSideBar").style.width = "250px";
+    }  
+    function CloseMainSideBar(){
+        document.getElementById("MainSideBar").style.width = "0";
+    }
+</script>
+</html>
