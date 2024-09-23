@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Process For How I Create Games</title>
+    <nav>
+        <a href="Main.html">HOBBY</a>
+        <button onclick="OpenMainSideBar()" class="StickTopRight">MENU+</button>
+    </nav>
+</head>
+<link rel="stylesheet" href="CssStyling.css">
+<main>
+    <body>  
+        <!--The sidebar-->
+        <div id ="MainSideBar" class="sidebar">
+            <div class="closeit" onclick="CloseMainSideBar()">X</div>
+            <div><a href="">Home</a></div>
+            <div><a href="">Contacts</a></div>
+            <div><a href="">Resource Links</a></div>
+        </div>
+        <!--Main Body Paragraph-->
+        <header><h1><b><u>Process For How I Create Games</u></b></h1></header>
+        <h2>Created 2024/09/21</h2>
+        <h2>By: Clyde Pestano</h2>
+        <img src="https://cdn.prod.website-files.com/5b651f8b5fc94c4e27470a81/622227fd2ce3cc0455a88166_blog-gamedev-fullsize.png" style="width: 800px; height: 600px;">
+        <p>Creating a games is a very difficult process, a lot goes into not only planning but managing where things are, the art, sound design,</p>
+        <p>and writing the actual code. I have been creating games for while now and my own proccess to how I make games I would like to share</p>
+        <h3><u>Here is a list of that process</u></h3>
+        <ol>
+            <li>Start of with an idea</li>
+            <li>Find resources related</li>
+            <li>Figure out its going to look(3D/2D art direction)</li>
+            <li>Start scrpiting and organizing</li>
+            <li>Audio Desgin</li>
+        </ol>
+    </body>         
+</main>
+<script>
+    //Function to open and close sidebar
+    function OpenMainSideBar(){
+        document.getElementById("MainSideBar").style.width = "250px";
+    }  
+    function CloseMainSideBar(){
+        document.getElementById("MainSideBar").style.width = "0";
+    }
+</script>
+</html>
